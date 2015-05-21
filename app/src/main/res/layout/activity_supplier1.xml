@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAD3D3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/four"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:minHeight="100dp"
+            android:minWidth="300dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radiusite"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/eleven_64"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton1"
+            android:src="@drawable/twelve_64"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/thirdten_64"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/fourten_64"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton4"
+            android:src="@drawable/fiftten_64"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton5"
+            android:src="@drawable/sixten_64"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of Supplier"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No phone"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="40dp"
+            android:text="Click Here for Hijab"
+            android:layout_marginLeft="150dp"
+            android:background= "#FF9C9C"
+            style="bold"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

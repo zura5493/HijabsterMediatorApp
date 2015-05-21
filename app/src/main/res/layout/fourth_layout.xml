@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAD3D3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/four"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:minHeight="100dp"
+            android:minWidth="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="Address"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="No phone"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Save"
+            android:textSize="20dp"
+            android:id="@+id/SaveButton"
+            android:onClick="onClickSave"
+            android:maxWidth="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="#FF9C9C"
+            style="bold"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

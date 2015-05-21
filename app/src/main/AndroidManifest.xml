@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zura.hijabstermediatorapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/seven_64"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".bottom_tabs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_bottom_tabs" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".Supplier1"
+            android:label="@string/title_activity_supplier1" >
+        </activity>
+        <activity
+            android:name=".Supplier2"
+            android:label="@string/title_activity_supplier2" >
+        </activity>
+    </application>
+
+</manifest>
